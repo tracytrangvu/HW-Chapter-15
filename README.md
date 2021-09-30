@@ -18,7 +18,7 @@ Start the `Terminal` in your Virtual Machine.
     > ![ping 8.8.8.8](Picture_8888.PNG) 
 
   - As per the ping `8.8.8.8 && pwd` there are five levels of sub-directories, see below: 
-    > ![ping 8.8.8.8 && pwd](/Images/1-3.PNG)  
+    > ![ping 8.8.8.8 && pwd](Picture_8888&&.PNG)  
 
   - Based on above, using the dot-dot-slash method `../` need to do it 5 times to access the payloads, that will display the contents of the following directories/files.  
    
