@@ -14,7 +14,8 @@ Start the `Terminal` in your Virtual Machine.
   >   - Password: `password`  
   > Select the **Command Injection** option or access the webpage directly at this page: <http://192.168.13.25/vulnerabilities/exec/>  
 
-  - As per the ping `8.8.8.8 && pwd` there are five levels of sub-directories, see below:  
+  - As per the ping `8.8.8.8 && pwd` there are five levels of sub-directories, see below: 
+    > ![ping 8.8.8.8](Picture_8888.PNG) 
     > ![ping 8.8.8.8 && pwd](/Images/1-3.PNG)  
 
   - Based on above, using the dot-dot-slash method `../` need to do it 5 times to access the payloads, that will display the contents of the following directories/files.  
