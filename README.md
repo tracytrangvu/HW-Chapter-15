@@ -14,8 +14,10 @@ Start the `Terminal` in your Virtual Machine.
   >   - Password: `password`  
   > Select the **Command Injection** option or access the webpage directly at this page: <http://192.168.13.25/vulnerabilities/exec/>  
 
-  - As per the ping `8.8.8.8 && pwd` there are five levels of sub-directories, see below: 
+  - Enter 8.8.8.8 in 'Ping a device' section:  
     > ![ping 8.8.8.8](Picture_8888.PNG) 
+
+  - As per the ping `8.8.8.8 && pwd` there are five levels of sub-directories, see below: 
     > ![ping 8.8.8.8 && pwd](/Images/1-3.PNG)  
 
   - Based on above, using the dot-dot-slash method `../` need to do it 5 times to access the payloads, that will display the contents of the following directories/files.  
@@ -176,12 +178,5 @@ Start the `Terminal` in your Virtual Machine.
 
 ---
 
-### References
 
-- [protecting against command execution attacks](https://www.hacksplaining.com/prevention/command-execution), on Hacksplanning  
-- [Command Injection](https://www.imperva.com/learn/application-security/command-injection/) Imperva.
-- Garrett Gross: [What is a brute force attack?](https://cybersecurity.att.com/blogs/security-essentials/brute-force-attack-mitigation-methods-best-practices) AT&T  Business.
-- [Brute force attack mitigation 101](https://www.n-able.com/blog/brute-force-attack-mitigation-101) By N-able: May 18, 2016.
-
----
 © 2021 GitHub, Inc.
