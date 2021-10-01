@@ -37,16 +37,7 @@ Start the `Terminal` in your Virtual Machine.
       - From the Web-Browser  
       `8.8.8.8 && cat ../../../../../etc/hosts`
       ![etc/host](hosts_web.PNG)  
-  
-### ***Recommended Mitigation Strategies***  
--------------------------------------------
-  > - **Avoid Command Line Calls Altogether if possible** - _Use of APIs only where ever possible._  
-  > - **Set up Input Validation** - _Command Injection vulnerabilities occur when untrusted input is not sanitized correctly._ A white list of possible inputs should be created for the system to accepts only the pre-approved inputs, and avoid the following characters:
-  >  ;  
-  >  &  
-  >  |  
-  >  `  
-  > - **Run with Restricted Permissions** - Reduce the number of users to access the database and the secure the locations of all confidential files and the directories.  
+   
 
 ### Web Application 2: *A Brute Force to Be Reckoned With*
 ----------------------------------------------------------
@@ -99,14 +90,6 @@ Start the `Terminal` in your Virtual Machine.
 
 - Results from the analysis that was completed from the `Intruder` show that there was one successful login username/password combination. It was user name of "**`tonystark`**" and the password "**`I am Iron Man`**". Below snapshot displays the `Successful login! You really are Iron Man :)` in the `Response` tab.  
   ![Tonystark - Successful](/Images/intruder-results-tonystark-sucessful.PNG)  
-
-### ***Recommended Mitigation Strategies***  
--------------------------------------------
-> There several ways to monitor and mitigate:  
->   - Locking the account after a fixed number of failed attempts.  
->   - Making the Usernames and Passwords more complex, and increase the frequency of changing the passwords.  
->   - Lock-out the IP address, if there are multiple login attempts.  
->   - Brute force site scanners. Scan the logs to see if there was a brute force attempted recently.  
 
 ### Web Application 3: *Where's the BeEF?*
 ------------------------------------------
