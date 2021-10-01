@@ -28,7 +28,7 @@ Start the `Terminal` in your Virtual Machine.
 
       - From the Web-Browser  
       `8.8.8.8 && cat ../../../../../etc/passwd`
-      ![etc/passwd](hosts_terminal.PNG)  
+      ![etc/passwd](picture_passwd_web.PNG)  
       
     - `/etc/hosts`  
       - From Command line in `Terminal`
