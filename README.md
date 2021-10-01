@@ -116,7 +116,7 @@ Start the `Terminal` in your Virtual Machine.
 
 #### 4. Inject this payload  
   - When trying to inject the payload there was an issue found, in the message box field, there was a limit of `maxlength="50"` character in the source code. Therefore we could not inject the payload.
-  ![maxlength=50](/Images/XSS-S--maxlength-50ch.PNG)
+  ![maxlength=50](/text_change_90.PNG)
   
   - Solution: From the Browser press `Ctrl+Shift+I` for Developer Tools. Under the `Element` in Chrome or `Inspector` in Firefox locate the `<div class="body_padded">` and in sub categories, locate the `<textarea name="mtxMessage" cols="50" rows="3" maxlength="50">`. Change the maxlength to any number greater than 50, for example `maxlength="75"`, or just remove this code limit.
   ![maxlength=75](/Images/XSS-S--maxlength-75ch.PNG)  
