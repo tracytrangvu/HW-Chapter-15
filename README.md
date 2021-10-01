@@ -36,7 +36,7 @@ Start the `Terminal` in your Virtual Machine.
 
       - From the Web-Browser  
       `8.8.8.8 && cat ../../../../../etc/passwd`
-      ![etc/host](/Images/etc-hosts.PNG)  
+      ![etc/host](hosts_web.PNG)  
   
 ### ***Recommended Mitigation Strategies***  
 -------------------------------------------
