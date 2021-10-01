@@ -125,8 +125,8 @@ Start the `Terminal` in your Virtual Machine.
 #### 5. A few BeEF exploits.
   - First to attempt a social engineering phishing exploit to create a fake Google login pop up, we can use this to capture user credentials.
   - Select `Google Phishing` under `Social Engineering` to access this exploit.
-      ![maxlength=75](/after_change_to_90.PNG) 
-      ![Google phising](Google_phishing.PNG)
+      ![Google phishing](Google_phising.PNG) 
+     
   - After selecting this option, the description of the exploit and any dependencies or options are displayed in the panel on the right.
        ![Google phising destination](Google_phising_des.PNG)
   - To launch the exploit, select Execute in the bottom right corner.
