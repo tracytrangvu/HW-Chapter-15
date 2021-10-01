@@ -128,7 +128,7 @@ Start the `Terminal` in your Virtual Machine.
       ![Google phishing](Google_phising.PNG) 
      
   - After selecting this option, the description of the exploit and any dependencies or options are displayed in the panel on the right.
-        ![Google phishing](Google_phising_des.PNG) 
+        ![Google phishing](Google_phising_Des.PNG) 
   - To launch the exploit, select Execute in the bottom right corner.
   - After selecting Execute, return back to your browser that was displaying the Butcher Shop website. Note that it has been changed to a Google login page.
   - A victim could easily mistake this for a real login prompt.
@@ -136,9 +136,9 @@ Start the `Terminal` in your Virtual Machine.
     - Username: `hackeruser`  
     - Password: `hackerpass`
     
-      ![wd_hw18](Email_phising.png)  
+      ![Email phishing](Email_phising.PNG)  
   - Return to the BeEF control panel. In the center panel, select the first option. Note that now on the right panel, the username and password have been captured by the attacker.  
-      ![wd_hw19](hacker_email.png)  
+      ![Hacker email](hacker_email.PNG)  
 
    - Task details:
      - The page you will test is the Replicants Stored XSS application which was used the first day of this unit: `http://192.168.13.25/vulnerabilities/xss_s/`
