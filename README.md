@@ -35,7 +35,7 @@ Start the `Terminal` in your Virtual Machine.
         ![ping from command line](hosts_terminal.PNG)  
 
       - From the Web-Browser  
-      `8.8.8.8 && cat ../../../../../etc/passwd`
+      `8.8.8.8 && cat ../../../../../etc/hosts`
       ![etc/host](hosts_web.PNG)  
   
 ### ***Recommended Mitigation Strategies***  
