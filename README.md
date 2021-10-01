@@ -32,7 +32,7 @@ Start the `Terminal` in your Virtual Machine.
       
     - `/etc/hosts`  
       - From Command line in `Terminal`
-        ![ping from command line](/Images/ping-8-8-8-8-etc-hosts.PNG)  
+        ![ping from command line](hosts_terminal.PNG)  
 
       - From the Web-Browser  
       `8.8.8.8 && cat ../../../../../etc/passwd`
