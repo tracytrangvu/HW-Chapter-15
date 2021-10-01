@@ -128,7 +128,7 @@ Start the `Terminal` in your Virtual Machine.
       ![Google phishing](Google_phising.PNG) 
      
   - After selecting this option, the description of the exploit and any dependencies or options are displayed in the panel on the right.
-       ![Google phising destination](Google_phising_des.PNG)
+        ![Google phishing](Google_phising_des.PNG) 
   - To launch the exploit, select Execute in the bottom right corner.
   - After selecting Execute, return back to your browser that was displaying the Butcher Shop website. Note that it has been changed to a Google login page.
   - A victim could easily mistake this for a real login prompt.
