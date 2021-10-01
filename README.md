@@ -125,9 +125,9 @@ Start the `Terminal` in your Virtual Machine.
 #### 5. A few BeEF exploits.
   - First to attempt a social engineering phishing exploit to create a fake Google login pop up, we can use this to capture user credentials.
   - Select `Google Phishing` under `Social Engineering` to access this exploit.
-       ![wd_hw16](Google_phishing.png)
+       ![wd_hw16](Google_phishing.PNG)
   - After selecting this option, the description of the exploit and any dependencies or options are displayed in the panel on the right.
-       ![wd_hw17](Google_phising_des.png)
+       ![wd_hw17](Google_phising_des.PNG)
   - To launch the exploit, select Execute in the bottom right corner.
   - After selecting Execute, return back to your browser that was displaying the Butcher Shop website. Note that it has been changed to a Google login page.
   - A victim could easily mistake this for a real login prompt.
