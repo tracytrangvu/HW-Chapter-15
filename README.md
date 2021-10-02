@@ -73,21 +73,22 @@ login=bee&password=bug&form=submit
   ![Burp Suite - Intercept](BWAPP_intercept_is_on_code.PNG)  
 
 - From the web application tool **Burp Suite**, on the `Intercept` tab Right click anywhere to send the information to `Intruder`  
-  - Select the `Intruder` tab, and verify the `Target` tab:  
-  ![Intruder-Target]()  
+  - Select the `Intruder` tab, and verify the `Attack Target`
+  - Host: 192.168.13.35
+  - Port: 80 
   
   - Select the `Position` tab and change the `Attack type:` to **`Cluster bomb`**, also clear all payload positions, except for the login and password credentials.  
-    ![Cluster bomb](/Images/intruder-target-cluster-bomb.PNG)  
+    ![Cluster bomb](BWAPP_intercept_on.PNG)  
 
  
   - Select the `Payloads` tab, and enter the `List of Administrators` file provided above into the Payload Options [Simple list] for the set 1.  
-    ![List of Administrators](/Images/payload-set-1-list-of-admins.PNG)  
+    ![List of Administrators](BWAPP_payload_1.PNG)  
   - Add the passwords from the `Breached list of Passwords` file provided above into the Payload Options [Simple list] for the set 2.  
-    ![Breached list of Passwords](/Images/payload-set-2-breached_passwords.PNG)  
+    ![Breached list of Passwords](BWAPP_5.PNG)  
   - Click the `Start attack` button to get the results.  
 
 - Results from the analysis that was completed from the `Intruder` show that there was one successful login username/password combination. It was user name of "**`tonystark`**" and the password "**`I am Iron Man`**". Below snapshot displays the `Successful login! You really are Iron Man :)` in the `Response` tab.  
-  ![Tonystark - Successful](/Images/intruder-results-tonystark-sucessful.PNG)  
+  ![Tonystark - Successful](BWAPP_capture_passwd.PNG)  
 
 ### Web Application 3: *Where's the BeEF?*
 ------------------------------------------
