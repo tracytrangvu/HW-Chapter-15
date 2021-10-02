@@ -44,7 +44,7 @@ Start the `Terminal` in your Virtual Machine.
 - From the `Terminal` in Vagrant, run the command `sudo burpsuite` to start the `Burp Suite Community Edition`
 - Open Firefox browser on Vagrant and choose to the webpage <http://192.168.13.35/ba_insecure_login_1.php>
 - Make sure the `FoxyProxy` setting on the web browser is set to `proxy1`.  
-  ![FoxyProxy setting](.PNG) 
+  ![FoxyProxy setting](BWAPP_capture_passwd.PNG) 
 
 - This page is an administrative web application that serves as a simple login page. An administrator enters their username and password and selects Login.
   - Enter the User name: `bee`  
