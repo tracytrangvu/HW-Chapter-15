@@ -74,7 +74,7 @@ login=bee&password=bug&form=submit
 
 - From the web application tool **Burp Suite**, on the `Intercept` tab Right click anywhere to send the information to `Intruder`  
   - Select the `Intruder` tab, and verify the `Target` tab:  
-  ![Intruder-Target](/Images/sent-to-intruder-target.PNG)  
+  ![Intruder-Target](BWAPP_intercept_is_on_code.PNG)  
   
   - Select the `Position` tab and change the `Attack type:` to **`Cluster bomb`**, also clear all payload positions, except for the login and password credentials.  
     ![Cluster bomb](/Images/intruder-target-cluster-bomb.PNG)  
