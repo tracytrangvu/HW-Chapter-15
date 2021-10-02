@@ -81,9 +81,9 @@ login=bee&password=bug&form=submit
     ![Cluster bomb](BWAPP_intercept_on.PNG)  
 
  
-  - Select the `Payloads` tab, and enter the `List of Administrators` file provided above into the Payload Options [Simple list] for the set 1.  
+  - Select the `Payloads` tab, and enter the `List of Administrators` list provided above into the Payload Options for the set 1.  
     ![List of Administrators](BWAPP_payload_1.PNG)  
-  - Add the passwords from the `Breached list of Passwords` file provided above into the Payload Options [Simple list] for the set 2.  
+  - Enter the passwords from the `Breached list of Passwords` list provided above into the Payload Options for the set 2.  
     ![Breached list of Passwords](BWAPP_5.PNG)  
   - Click the `Start attack` button to get the results.  
 
