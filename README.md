@@ -54,19 +54,36 @@ Start the `Terminal` in your Virtual Machine.
   `Request to http://192.168.13.35:80`  
   ```
   POST /ba_insecure_login_1.php HTTP/1.1
-  Host: 192.168.13.35
-  User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
-  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-  Accept-Language: en-US,en;q=0.5
-  Accept-Encoding: gzip, deflate
-  Content-Type: application/x-www-form-urlencoded
-  Content-Length: 48
-  Connection: close
-  Referer: http://192.168.13.35/ba_insecure_login_1.php
-  Cookie: PHPSESSID=6qk327baioj8ioe6p70ff6bvt1; security_level=0
-  Upgrade-Insecure-Requests: 1
-  
-  login=test-user&password=test-passwd&form=submit
+
+Host: 192.168.13.35
+
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+
+Accept-Language: en-US,en;q=0.5
+
+Accept-Encoding: gzip, deflate
+
+Content-Type: application/x-www-form-urlencoded
+
+Content-Length: 34
+
+Origin: http://192.168.13.35
+
+DNT: 1
+
+Connection: close
+
+Referer: http://192.168.13.35/ba_insecure_login_1.php
+
+Cookie: PHPSESSID=gjgme78qruuivmq47t9sktgdv0; security_level=0
+
+Upgrade-Insecure-Requests: 1
+
+
+
+login=bee&password=bug&form=submit
   ```
   ![Burp Suite - Intercept](/Images/Burp-Suite-intercept-test-user.PNG)  
 
