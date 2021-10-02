@@ -89,6 +89,7 @@ login=bee&password=bug&form=submit
 
 - Results from the analysis that was completed from the `Intruder` show that there was one successful login username/password combination. It was user name of "**`tonystark`**" and the password "**`I am Iron Man`**". Below snapshot displays the `Successful login! You really are Iron Man :)` in the `Response` tab.  
   ![Tonystark - Successful](BWAPP_capture_passwd.PNG)  
+  ![Tonystark - Successful](BWAPP_successful_login.PNG) 
 
 ### Web Application 3: *Where's the BeEF?*
 ------------------------------------------
