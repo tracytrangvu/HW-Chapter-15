@@ -77,17 +77,17 @@ login=bee&password=bug&form=submit
   - Host: 192.168.13.35
   - Port: 80 
   
-  - Select the `Position` tab and change the `Attack type:` to **`Cluster bomb`**, also clear all payload positions, except for the login and password credentials.  
+  - Select the `Position` tab and change the `Attack type:` **`Cluster bomb`** .Clear all payload positions, except for the login and password credentials.  
     ![Cluster bomb](BWAPP_intercept_on.PNG)  
 
  
-  - Select the `Payloads` tab, and enter the `List of Administrators` list provided above into the Payload Options for the set 1.  
+  - Select the `Payloads` tab, enter the `List of Administrators` list provided above into the Payload Options for the set 1.  
     ![List of Administrators](BWAPP_payload_1.PNG)  
   - Enter the passwords from the `Breached list of Passwords` list provided above into the Payload Options for the set 2.  
     ![Breached list of Passwords](BWAPP_5.PNG)  
   - Click the `Start attack` button to get the results.  
 
-- Results from the analysis that was completed from the `Intruder` show that there was one successful login username/password combination. It was user name of "**`tonystark`**" and the password "**`I am Iron Man`**". Below snapshot displays the `Successful login! You really are Iron Man :)` in the `Response` tab.  
+- The results shows there was one successful login username/password combination. There is one user name of "**`tonystark`**" and the password "**`I am Iron Man`**". Below snapshot displays the `Successful login! You really are Iron Man :)` in the `Response` tab.  
   ![Tonystark - Successful](BWAPP_capture_passwd.PNG)  
   ![Tonystark - Successful](BWAPP_successful_login.PNG) 
 
