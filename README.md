@@ -49,7 +49,7 @@ Start the `Terminal` in your Virtual Machine.
 - This page is an administrative web application that serves as a simple login page. An administrator enters their username and password and selects Login.
   - Enter the User name: `bee`  
   - Enter the Password: `bug`  
-  ![Login attempt with Burp activated](/Images/bwapp-test-user.PNG)  
+  ![Login attempt with Burp activated](BWAPP_login_bee.PNG)  
 - Following was displayed in the `Burp Suite` in **`Proxy`** tab under the _`Intercept`_ - Highlighting the Login and password credentials.  
   `Request to http://192.168.13.35:80`  
 ```
@@ -79,11 +79,7 @@ login=bee&password=bug&form=submit
   - Select the `Position` tab and change the `Attack type:` to **`Cluster bomb`**, also clear all payload positions, except for the login and password credentials.  
     ![Cluster bomb](/Images/intruder-target-cluster-bomb.PNG)  
 
-  - You've been provided with a list of administrators and the breached passwords:
-
-     - [List of Administrators](listofadmins.txt)
-     - [Breached list of Passwords](breached_passwords.txt)
-  
+ 
   - Select the `Payloads` tab, and enter the `List of Administrators` file provided above into the Payload Options [Simple list] for the set 1.  
     ![List of Administrators](/Images/payload-set-1-list-of-admins.PNG)  
   - Add the passwords from the `Breached list of Passwords` file provided above into the Payload Options [Simple list] for the set 2.  
