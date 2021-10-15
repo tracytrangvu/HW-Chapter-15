@@ -36,7 +36,7 @@ Start the `Terminal` in your Virtual Machine.
 
       - From the Web-Browser  
       `8.8.8.8 && cat ../../../../../etc/hosts`
-      ![etc/host](hosts_web.PNG)  
+      ![etc/host](host_fix.PNG)  
    
    
    Mitigation: The best way to prevent a command injection is to avoid system calls and user input. A strong input validation is needed to be performed, it validates against a whitelist of pre-approved inputs and also uses a secure APIs
