@@ -38,7 +38,9 @@ Start the `Terminal` in your Virtual Machine.
       `8.8.8.8 && cat ../../../../../etc/hosts`
       ![etc/host](hosts_web.PNG)  
    
-
+   
+   Mitigation: The best way to prevent a command injection is to avoid system calls and user input. A strong input validation is needed to be performed, it validates against a whitelist of pre-approved inputs and also uses a secure APIs
+   
 ### Web Application 2: *A Brute Force to Be Reckoned With*
 ----------------------------------------------------------
 - From the `Terminal` in Vagrant, run the command `sudo burpsuite` to start the `Burp Suite Community Edition`
