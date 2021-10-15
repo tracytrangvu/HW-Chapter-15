@@ -92,6 +92,8 @@ login=bee&password=bug&form=submit
 - The results shows there was one successful login username/password combination. There is one user name of "**`tonystark`**" and the password "**`I am Iron Man`**". Below snapshot displays the `Successful login! You really are Iron Man :)` in the `Response` tab.  
   ![Tonystark - Successful](BWAPP_capture_passwd.PNG)  
   ![Tonystark - Successful](BWAPP_successful_login.PNG) 
+  
+  Mitigation:  To block brute-force attacks is to lock out accounts after a defined number of incorrect password attempts. HOwever, the account lockout is sometimes effective, but only in controlled environment or in cases where the risk is so great that even continuous DoS attacks are preferable to account compromise. The best way is to make sure the users follow basic rules for strong passwords that can slow the attackers to run trillions of possible combinations to break the password.
 
 ### Web Application 3: *Where's the BeEF?*
 ------------------------------------------
@@ -155,4 +157,6 @@ login=bee&password=bug&form=submit
 
   - Social Engineering >> Fake Notification Bar
     ![Social Engineering >> Fake Notification Bar](fake_notification.PNG)  
+    
+    Mitigation: Web Application firewalls can used to detect a XSS attack in real time. Another way to implement a content security policy into the web browser. For example: Content Security Policy (CSP) is a security standard introduced to help prevent cross-site scripting (XSS) and other content injection attacks.
     
