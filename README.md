@@ -39,7 +39,8 @@ Start the `Terminal` in your Virtual Machine.
       ![etc/host](host_fix.PNG)  
    
    
-   Mitigation: The best way to prevent a command injection is to avoid system calls and user input. A strong input validation is needed to be performed, it validates against a whitelist of pre-approved inputs and also uses a secure APIs
+  ### Mitigation:
+  The best way to prevent a command injection is to avoid system calls and user input. A strong input validation is needed to be performed, it validates against a whitelist of pre-approved inputs and also uses a secure APIs
    
 ### Web Application 2: *A Brute Force to Be Reckoned With*
 ----------------------------------------------------------
@@ -93,7 +94,8 @@ login=bee&password=bug&form=submit
   ![Tonystark - Successful](BWAPP_capture_passwd.PNG)  
   ![Tonystark - Successful](BWAPP_successful_login.PNG) 
   
-  Mitigation:  To block brute-force attacks is to lock out accounts after a defined number of incorrect password attempts. HOwever, the account lockout is sometimes effective, but only in controlled environment or in cases where the risk is so great that even continuous DoS attacks are preferable to account compromise. The best way is to make sure the users follow basic rules for strong passwords that can slow the attackers to run trillions of possible combinations to break the password.
+  ### Mitigation: 
+  To block brute-force attacks is to lock out accounts after a defined number of incorrect password attempts. HOwever, the account lockout is sometimes effective, but only in controlled environment or in cases where the risk is so great that even continuous DoS attacks are preferable to account compromise. The best way is to make sure the users follow basic rules for strong passwords that can slow the attackers to run trillions of possible combinations to break the password.
 
 ### Web Application 3: *Where's the BeEF?*
 ------------------------------------------
@@ -158,5 +160,6 @@ login=bee&password=bug&form=submit
   - Social Engineering >> Fake Notification Bar
     ![Social Engineering >> Fake Notification Bar](fake_notification.PNG)  
     
-    Mitigation: Web Application firewalls can used to detect a XSS attack in real time. Another way to implement a content security policy into the web browser. For example: Content Security Policy (CSP) is a security standard introduced to help prevent cross-site scripting (XSS) and other content injection attacks.
+   ### Mitigation:
+   Web Application firewalls can used to detect a XSS attack in real time. Another way to implement a content security policy into the web browser. For example: Content Security Policy (CSP) is a security standard introduced to help prevent cross-site scripting (XSS) and other content injection attacks.
     
